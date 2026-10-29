@@ -1,0 +1,13 @@
+[project]
+name = "evolution-of-cooperation"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy", "fire", "msgspec", "pyyaml"]
+
+[project.scripts]
+evolution-of-cooperation = "evolution_of_cooperation.runner:main"
+
+[build-system]
+requires = ["uv_build>=0.8.8,<0.9.0"]
+build-backend = "uv_build"
