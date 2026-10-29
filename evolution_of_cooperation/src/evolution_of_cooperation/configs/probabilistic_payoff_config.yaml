@@ -1,7 +1,7 @@
 output_dir: Trials
 group_sizes: [2, 3, 4, 5, 6, 7, 8, 9, 10]
 etas: [0.01, 0.05, 0.1, 0.5]
-num_trials: 1
+num_trials: 10
 num_runs: 10000
 N: 1000
 m: 1000
